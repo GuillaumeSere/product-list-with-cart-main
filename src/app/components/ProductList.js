@@ -59,7 +59,7 @@ const ProductList = () => {
         if (typeof window !== 'undefined') {
             if (window.innerWidth < 640) return image.mobile || '';
             if (window.innerWidth < 768) return image.tablet || '';
-            if (window.innerWidth >= 1440) return image.desktop || '';
+            if (window.innerWidth >= 900) return image.desktop || '';
         }
         return image.mobile || '';
     };
