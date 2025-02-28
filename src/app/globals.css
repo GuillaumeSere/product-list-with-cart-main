@@ -383,4 +383,14 @@ body.active{
         margin-top: 0.5rem;
         margin-bottom: 2rem;
     }
+    .modal{
+        right: 0;
+        width: 340px;
+        top: -9rem;
+    }
+    .list-name{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
 }
